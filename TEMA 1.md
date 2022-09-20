@@ -95,12 +95,17 @@
 
     - En algun caso un número finito  de dígitos en decimal se convierta en periodo con números infinitos 
     en binario, como con 0,9
-    
+
+## Octal a binario/ Hexadecimal a binario ##
     - Para pasar de octal a binario o de hexadecimal a binario, tenemos que tener en cuenta que:
         - En el sistema octal se puede representar con 3 bits al ser la base 8 = 2^3
         - El en sistema hexadecimal se puede representar con 4 bits al ser la base 16=2^4
 ![](assets/img/octal_y_hexadecimal_binario.PNG)
 
-    - Al tratar de hacer el proceso inverso, puede pasar que el el grupo de 3 bits no sea múltiplo de 3,
-     por tanto tendremos que añadir en algunos casos 0 a la izquierda en la parte entera y 0 a la derecha
-      en la parte fraccionaria
+## Binario a octal o Binario a Hexadecimal ##
+    -Cuando el grupo de 3/4 bits no está completo se rellena con ceros
+        - A la izquierda para la parte entera
+        - A la parte derecha para la parte fraccionaria
+
+## Octal a Hexadecimal o Hexadecimal a Octal ## 
+    - Hay que pasar por el binario  para poder entenderlo, y entonces estariamos en el caso anterior 
